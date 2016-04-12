@@ -16,7 +16,8 @@ int main()
 
 	custom_allocate();
 
-	cout << "In contrast to previous state, the memory occupied by the program is signifcant, and equal to amount reserved in custom_allocate function. It shows that the OS assumes that memory is still reserved for the application." << endl;
+	cout << "In contrast to previous state, the memory occupied by the program is signifcant, and equal to amount reserved in custom_allocate function."
+		<<" It shows that the OS assumes that memory is still reserved for the application." << endl;
 	cin.get();
 
 	//If you uncomment next line, the application will encounter an exception after few runs of the loop, exceeding maximum permitted memory for the application.
